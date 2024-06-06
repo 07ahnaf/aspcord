@@ -1,0 +1,55 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #2f3136;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #36393f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.channel-list {
+    padding: 20px;
+    background-color: #292b2f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.channel {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.channel:last-child {
+    border-bottom: none;
+}
+
+.message-list {
+    padding: 20px;
+    background-color: #292b2f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.message:last-child {
+    border-bottom: none;
+}
+
+.username {
+    font-weight: bold;
+    color: #fff;
+}
+
+.timestamp {
+    color: #666;
+    font-size: 12px;
+}
